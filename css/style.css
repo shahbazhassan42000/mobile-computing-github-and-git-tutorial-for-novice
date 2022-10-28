@@ -1,0 +1,17 @@
+header{
+    opacity: 0;
+    animation: header-intro-animation .3s linear forwards;
+}
+
+@keyframes header-intro-animation {
+    from {
+        opacity: 0;
+        transform: translateY(-400px);
+    }
+
+    to {
+        opacity: 1;
+        transform : translateY(0);
+    }
+}
+
