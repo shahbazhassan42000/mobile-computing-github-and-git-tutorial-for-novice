@@ -5,3 +5,7 @@
 /httpRequests/
 *.iml
 *.xml
+/node_modules/
+/.idea/
+package*
+tailwind.config.js
