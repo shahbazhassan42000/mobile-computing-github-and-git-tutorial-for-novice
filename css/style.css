@@ -23,3 +23,17 @@ a{
 a:hover{
     text-decoration: underline;
 }
+code{
+    font-family: Hack, monospace !Important;
+    width: 100%;
+    font-size: 0.875rem !important;
+    font-weight: normal;
+    line-height: 25px;
+    background-color: #f7f3eb;
+    color: #05192d;
+    display: inline-block;
+    max-width: 100%;
+    overflow-x: auto;
+    padding: 16px;
+    text-shadow: none;
+}
