@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
-ul{
+footer ul{
     width: 100%;  text-align: center;
     font-family: 'Quicksand', sans-serif;
     transform: translate(0,-50%);
 }
-ul li{
+footer ul li{
     list-style: none;
     display: inline-block;
     position: relative;
     width: 100px;  height: 100px;
     margin: 0 10px;
 }
-ul li::before{
+footer ul li::before{
     content: '';
     position: absolute;
     bottom: -20px;  left: 0;
@@ -23,19 +23,19 @@ ul li::before{
     opacity: 0;
     transition: .5s;
 }
-ul li:hover::before{
+footer ul li:hover::before{
     opacity: 1;
 }
-ul li a{
+footer ul li a{
     position: relative;
     display: inline-block;
     width: 100%;  height: 100%;
     transition: 1s;
 }
-ul li:hover a{
+footer ul li:hover a{
     transform: translateY(-50px);
 }
-ul li a::before,ul li a::after{
+footer ul li a::before,ul li a::after{
     content: '';
     font-family: 'fontAwesome', serif;
     position: absolute;
@@ -46,58 +46,58 @@ ul li a::before,ul li a::after{
     font-size: 40px;
     transition: 1s;
 }
-ul li a::before{
+footer ul li a::before{
     background: #fff;  color: #262626;
     transform-origin: top;
     transform: rotate(0deg) translateY(0px);
 }
-ul li a::after{
+footer ul li a::after{
     color: #fff;
     transform-origin: bottom;
     transform: rotateX(90deg) translateY(50px);
 }
-ul li:hover a::before{
+footer ul li:hover a::before{
     transform: rotateX(90deg) translateY(-50px);
 }
-ul li:hover a::after{
+footer ul li:hover a::after{
     transform: rotateX(0deg) translateY(0px);
 }
 
-ul li:nth-of-type(1) a::before,ul li:nth-of-type(1) a::after{
+footer ul li:nth-of-type(1) a::before,ul li:nth-of-type(1) a::after{
     content: '\f09a';
 }
-ul li:nth-of-type(2) a::before,ul li:nth-of-type(2) a::after{
+footer ul li:nth-of-type(2) a::before,ul li:nth-of-type(2) a::after{
     content: '\f099';
 }
-ul li:nth-of-type(3) a::before,ul li:nth-of-type(3) a::after{
+footer ul li:nth-of-type(3) a::before,ul li:nth-of-type(3) a::after{
     content: '\f16d';
 }
-ul li:nth-of-type(4) a::before,ul li:nth-of-type(4) a::after{
+footer ul li:nth-of-type(4) a::before,ul li:nth-of-type(4) a::after{
     content: '\f0e1';
 }
-ul li:nth-of-type(5) a::before,ul li:nth-of-type(5) a::after{
+footer ul li:nth-of-type(5) a::before,ul li:nth-of-type(5) a::after{
     content: '\f232';
 }
-ul li:nth-of-type(6) a::before,ul li:nth-of-type(6) a::after{
+footer ul li:nth-of-type(6) a::before,ul li:nth-of-type(6) a::after{
     content: '\f09b';
 }
 
 
-ul li:nth-of-type(1) a::after{
+footer ul li:nth-of-type(1) a::after{
     background: #3b5999;
 }
-ul li:nth-of-type(2) a::after{
+footer ul li:nth-of-type(2) a::after{
     background: #55acee;
 }
-ul li:nth-of-type(3) a::after{
+footer ul li:nth-of-type(3) a::after{
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
 }
-ul li:nth-of-type(4) a::after{
+footer ul li:nth-of-type(4) a::after{
     background: #0077B5;
 }
-ul li:nth-of-type(5) a::after{
+footer ul li:nth-of-type(5) a::after{
     background: #128c7e;
 }
-ul li:nth-of-type(6) a::after{
+footer ul li:nth-of-type(6) a::after{
     background: #333;
 }
