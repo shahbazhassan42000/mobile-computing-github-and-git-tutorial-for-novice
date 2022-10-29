@@ -809,6 +809,8 @@
             </p>
             <img class="my-4 mx-auto hover:scale-110 transition duration-300 ease-in-out"
                  src="assets/images/git-commit-2.png" alt="git committed update readme">
+        </div>
+        <div>
             <h2 class="text-[1.4rem] font-[600] mb-4">
                 Adding Project Files
             </h2>
@@ -843,6 +845,70 @@
             </p>
             <img class="my-4 mx-auto hover:scale-110 transition duration-300 ease-in-out"
                  src="assets/images/git-push-2.png" alt="git push">
+            <p>
+                We are going to check our recently created GitHub repository to see whether we have successfully
+                pushed the changes to remote. The GitHub repository has all the folders and files.
+            </p>
+            <img class="my-4 mx-auto hover:scale-110 transition duration-300 ease-in-out"
+                 src="assets/images/github-commit-check.png" alt="github commit check">
+            <p>
+                Each commit has a hash ID, which contains the details of each commit.
+            </p>
+            <img class="my-4 mx-auto hover:scale-110 transition duration-300 ease-in-out"
+                 src="assets/images/commits-history.png" alt="git commits history">
+            <p>
+                You can open each notepad and check the content inside.
+            </p>
+            <img class="my-4 mx-auto hover:scale-110 transition duration-300 ease-in-out"
+                 src="assets/images/commit-view.png" alt="git commit details">
+        </div>
+        <div>
+            <h2 class="text-[1.4rem] font-[600] mb-4">
+                Git Branches
+            </h2>
+            <p class="mb-4">
+                It is recommended to work with branches: for example, if you want to work on project documentation,
+                create a documentation branch using `git checkout` or `git branch`. Make changes in the README file and
+                when you have finalized the changes, merge the branch with the base.
+            </p>
+            <p>
+                In our case, we have created and switched to a new branch called `readme`.
+            </p>
+            <img class="my-4 mx-auto hover:scale-110 transition duration-300 ease-in-out"
+                 src="assets/images/git-branch.png" alt="Git branches">
+            <p>
+                Let’s edit the README file by adding some text in it. After that, we will stage changes and save a
+                snapshot of changes with a message.
+            </p>
+            <img class="my-4 mx-auto hover:scale-110 transition duration-300 ease-in-out"
+                 src="assets/images/git-readme-updated.png" alt="Git README file updated">
+            <p>
+                The remote repository doesn't have a readme branch. To create a new branch and push changes, we will use
+                “readme:readme”. The output of the command shows that new branches have been created and both local and
+                remote `readme` branches are synced.
+            </p>
+            <img class="my-4 mx-auto hover:scale-110 transition duration-300 ease-in-out"
+                 src="assets/images/git-remote-branch.png" alt="Git remote branch creation">
+            <p>
+                You can observe that we have successfully pushed the local branch to GitHub with a modified version of
+                README.md file.
+            </p>
+            <img class="my-4 mx-auto hover:scale-110 transition duration-300 ease-in-out"
+                 src="assets/images/github-readme-updated.png" alt="Github updated readme">
+        </div>
+        <div>
+            <h2 class="text-[1.4rem] font-[600] mb-4">
+                Pull Request
+            </h2>
+            <p>
+                This functionality is common for organizations. For example, a software developer has worked on a new
+                feature and wants to merge changes to the main remote branch. We will now create pull requests using
+                GitHub GUI by clicking on the pull request button. After that, select the readme branch which we want to
+                merge with the base (main). You can type a detailed explanation of what features were added and click on
+                the pull request button.
+            </p>
+            <img class="my-4 mx-auto hover:scale-110 transition duration-300 ease-in-out"
+                 src="assets/images/github-readme-updated.png" alt="Github updated readme">
         </div>
     </div>
 </main>
