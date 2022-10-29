@@ -17,4 +17,9 @@ header{
         transform : translateY(0);
     }
 }
-
+a{
+    color:#0075AD !important;
+}
+a:hover{
+    text-decoration: underline;
+}
