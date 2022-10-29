@@ -10,7 +10,7 @@
     <link rel="icon" type="image/x-icon" href="/assets/images/logo.png">
 </head>
 <body>
-<header class="h-screen">
+<header class="sm:h-[500px] lg:h-screen">
     <img class="background" src="assets/images/intro.png" alt="git intro poster">
     <div class="circle-container">
         <div class="circle"></div>
@@ -314,7 +314,7 @@
     </div>
 </header>
 
-<main class="mt-40 px-32 flex flex-col space-y-8  text-[#05192D]">
+<main class="sm:mt-20 lg:mt-40 sm:px-10 lg:px-32  flex flex-col space-y-8  text-[#05192D]">
     <div class="flex items-center">
         <div class="flex flex-col space-y-4 text-[1.3rem]">
             <p>
@@ -420,7 +420,8 @@
             different from the other SCM tools. Git allows the <strong>creation of multiple branches</strong> without
             affecting each other. We can perform tasks like <strong>creation</strong>, <strong>deletion</strong>, and
             <strong>merging</strong> on branches, and these tasks take a few seconds only.
-            <img class="mx-auto" height="318" src="assets/images/git-branching.png" alt="git branches">
+            <img class="mx-auto" height="444" src="assets/images/git-branching.png" alt="git branches">
+        </p>
         <ul class="list-disc pl-10 text-[1.2rem]">
             Below are some features that can be achieved by branching:
             <li>We can create a <strong>separate branch</strong> for a new module of the project, commit and delete it
@@ -439,11 +440,10 @@
                 push all of our branches. We can select a few of our branches, or all of them together.
             </li>
         </ul>
-        </p>
         <h2 class="text-[1.4rem] font-[600] mb-0">
             Staging Area
         </h2>
-        <div class="flex items-start !mb-10">
+        <div class="flex sm:items-center !mb-10">
             <div>
                 <p>
                     The <strong>Staging area</strong> is also a <strong>unique functionality</strong> of Git. It can be
