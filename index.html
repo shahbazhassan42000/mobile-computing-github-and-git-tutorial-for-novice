@@ -355,13 +355,123 @@
             services. Git can be used <strong>privately</strong> and <strong>publicly</strong>.
         </p>
         <p>
-            Git was created by <strong>Linus Torvalds</strong> in <strong>2005</strong> to develop Linux Kernel. It is also used as an important
+            Git was created by <strong>Linus Torvalds</strong> in <strong>2005</strong> to develop Linux Kernel. It is
+            also used as an important
             distributed version-control tool for <strong>the DevOps</strong>.
         </p>
         <p>
             Git is easy to learn, and has fast performance. It is superior to other SCM tools like Subversion, CVS,
             Perforce, and ClearCase.
         </p>
+        <h1 class="text-[2rem] font-[700] mb-2">
+            Features of Git
+        </h1>
+        <p>
+            Some remarkable features of Git are as follows:
+        </p>
+        <div class="flex items-center">
+            <div>
+                <h2 class="text-[1.6rem] font-[600] mb-2">
+                    Open Source
+                </h2>
+                <p class="mb-3">
+                    Git is an <strong>open-source</strong> tool. It is released under the <strong>GPL</strong> (General
+                    Public License) license.
+                </p>
+                <h2 class="text-[1.6rem] font-[600] mb-2">
+                    Scalable
+                </h2>
+                <p>
+                    Git is <strong>scalable</strong>, which means when the number of users increases, the Git can easily
+                    handle such situations.
+                </p>
+            </div>
+            <img height="297" width="450" src="assets/images/features-of-git.jpg" alt="features of git">
+        </div>
+        <h2 class="text-[1.6rem] font-[600] mb-0">
+            Distributed
+        </h2>
+        <p>
+            One of Git's great features is that it is <strong>distributed</strong>. Distributed means that instead of
+            switching the
+            project to another machine, we can create a "clone" of the entire repository. Also, instead of just having
+            one central repository that you send changes to, every user has their own repository that contains the
+            entire commit history of the project. We do not need to connect to the remote repository; the change is just
+            stored on our local repository. If necessary, we can push these changes to a remote repository.
+        </p>
+        <img class="self-center" height="500" width="600" src="assets/images/features-of-git2.png"
+             alt="distributed git">
+        <h2 class="text-[1.6rem] font-[600] mb-0">
+            Security
+        </h2>
+        <p>
+            Git is secure. It uses the <strong>SHA1 (Secure Hash Function)</strong> to name and identify objects within
+            its
+            repository. Files and commits are checked and retrieved by its checksum at the time of checkout. It
+            stores its history in such a way that the ID of particular commits depends upon the complete
+            development history leading up to that commit. Once it is published, one cannot make changes to its
+            old version.
+        </p>
+        <h2 class="text-[1.6rem] font-[600] mb-0">
+            Branching and Merging
+        </h2>
+        <p>
+            <strong>Branching and merging</strong> are the <strong>great features</strong> of Git, which makes it
+            different from the other SCM tools. Git allows the <strong>creation of multiple branches</strong> without
+            affecting each other. We can perform tasks like <strong>creation</strong>, <strong>deletion</strong>, and
+            <strong>merging</strong> on branches, and these tasks take a few seconds only.
+            <img class="mx-auto" height="318" src="assets/images/git-branching.png" alt="git branches">
+        <ul class="list-disc pl-10 text-[1.2rem]">
+            Below are some features that can be achieved by branching:
+            <li>We can create a <strong>separate branch</strong> for a new module of the project, commit and delete it
+                whenever we want.
+            </li>
+            <li>
+                We can have a <strong>production branch</strong>, which always has what goes into production and can be
+                merged for testing in the test branch.
+            </li>
+            <li>
+                We can create a <strong>demo branch</strong> for the experiment and check if it is working. We can also
+                remove it if needed.
+            </li>
+            <li>
+                The core benefit of branching is if we want to push something to a remote repository, we do not have to
+                push all of our branches. We can select a few of our branches, or all of them together.
+            </li>
+        </ul>
+        </p>
+        <h2 class="text-[1.6rem] font-[600] mb-0">
+            Staging Area
+        </h2>
+        <div class="flex items-start !mb-10">
+            <div>
+                <p>
+                    The <strong>Staging area</strong> is also a <strong>unique functionality</strong> of Git. It can be
+                    considered as a <strong>preview of our next commit</strong>, moreover, an intermediate area where
+                    commits can be formatted and reviewed before completion. When you make a commit, Git takes changes
+                    that are in the staging area and make them as a new commit. We are allowed to add and remove changes
+                    from the staging area. The staging area can be considered as a place where Git stores the changes.
+                    Although, Git doesn't have a dedicated staging directory where it can store some objects
+                    representing file changes (blobs). Instead of this, it uses a file called index.
+                </p>
+            </div>
+            <img src="assets/images/git-staging.png" alt="git staging">
+        </div>
+        <div class="flex items-start justify-between">
+            <div class="flex flex-col">
+                <h2 class="text-[1.6rem] font-[600] mb-0">
+                    Benefits of Git
+                </h2>
+
+                <img height="360" width="500" src="assets/images/git-benefits.png" alt="benefits of git">
+            </div>
+            <div class="flex flex-col">
+                <h2 class="text-[1.6rem] font-[600] mb-0">
+                    Why Git?
+                </h2>
+                <img height="500" width="600" src="assets/images/why-git.png" alt="why git">
+            </div>
+        </div>
     </div>
 </main>
 </body>
