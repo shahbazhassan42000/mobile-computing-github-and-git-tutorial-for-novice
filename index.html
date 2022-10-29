@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="css/particles.css">
     <link rel="stylesheet" href="css/font.css">
     <link rel="icon" type="image/x-icon" href="/assets/images/logo.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
 </head>
 <body>
 <header class="sm:h-[500px] lg:h-screen">
@@ -494,7 +496,7 @@
             software development and contribute to open-source projects. Being able to analyze the GitHub portfolio
             helps them prepare questions for technical interview sessions.
             <a href="https://github.com/shahbazhassan42000" target="_blank">
-                <img class="mx-auto" height="1021" width="1397" src="assets/images/portfolio.png"
+                <img class="mx-auto mt-6" height="1021" width="1397" src="assets/images/portfolio.png"
                      alt="shahbazhassan42000's github profile">
             </a>
         </p>
@@ -560,7 +562,8 @@
                 <strong>git log</strong> show a detailed list of commits for the current branch.
             </li>
         </ul>
-        <img height="1092" width="1859" class="mx-auto" src="assets/images/git-commands.png" alt="git basic commands">
+        <img height="1092" width="1859" class="mx-auto mt-4" src="assets/images/git-commands.png"
+             alt="git basic commands">
     </div>
     <div class="flex flex-col space-y-4 text-[1.3rem]">
         <h1 class="text-[2rem] font-[700] mb-2">
@@ -571,16 +574,156 @@
             <h2 class="text-[1.4rem] font-[600] mb-0">
                 Installing Git
             </h2>
-            <p>
+            <p class="mb-4">
                 Git supports all operating systems. You can install it using command-line tools or directly download and
                 install the setup.
             </p>
             <h3 class="text-[1.35rem]">Linux</h3>
-            <p class="">
+            <p class="mb-4">
                 For Debian/Ubuntu-based operating systems use `apt-get install git`, and if you are
                 using another Linux-based system, check out the complete list of installing commands
                 <a href="https://git-scm.com/download/linux" target="_blank" rel="noopener">here</a>.
             </p>
+            <h3 class="text-[1.35rem]">macOS</h3>
+            <p class="mb-4">
+                If you have <a href="https://brew.sh" target="_blank" rel="noopener">homebrew</a>
+                installed, use this command to download and install Git: `brew install git`. You can also download the
+                binary <a href="https://sourceforge.net/projects/git-osx-installer" target="_blank" rel="noopener">installer</a>
+                and run the setup.
+            </p>
+            <h3 class="text-[1.35rem]">Windows</h3>
+            <p class="mb-4">
+                Installing Git on Windows is hassle-free. Just go to the download <a
+                    href="https://git-scm.com/download/win" target="_blank" rel="noopener">page</a>, click on the
+                specific Windows version, and download and install the setup. If you have a <a
+                    href="https://docs.microsoft.com/en-us/windows/package-manager/winget" target="_blank"
+                    rel="noopener">winget tool</a>, you can install it by typing `winget install --id Git.Git -e
+                --source winget` in PowerShell.&nbsp;
+            </p>
+            <div>
+                <div
+                        id="carouselDarkVariant"
+                        class="carousel slide carousel-fade carousel-dark relative"
+                        data-bs-ride="carousel"
+                >
+                    <!-- Indicators -->
+                    <div class="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
+                        <button
+                                data-bs-target="#carouselDarkVariant"
+                                data-bs-slide-to="0"
+                                class="active"
+                                aria-current="true"
+                                aria-label="Slide 1"
+                        ></button>
+                        <button
+                                data-bs-target="#carouselDarkVariant"
+                                data-bs-slide-to="1"
+                                aria-label="Slide 2"
+                        ></button>
+                        <button
+                                data-bs-target="#carouselDarkVariant"
+                                data-bs-slide-to="2"
+                                aria-label="Slide 3"
+                        ></button>
+                        <button
+                                data-bs-target="#carouselDarkVariant"
+                                data-bs-slide-to="3"
+                                aria-label="Slide 4"
+                        ></button>
+                        <button
+                                data-bs-target="#carouselDarkVariant"
+                                data-bs-slide-to="4"
+                                aria-label="Slide 5"
+                        ></button>
+                        <button
+                                data-bs-target="#carouselDarkVariant"
+                                data-bs-slide-to="5"
+                                aria-label="Slide 6"
+                        ></button>
+                    </div>
+
+                    <!-- Inner -->
+                    <div class="carousel-inner relative w-full overflow-hidden">
+                        <!-- Single item -->
+                        <div class="carousel-item active relative float-left w-full">
+                            <img
+                                    height="438"
+                                    src="assets/images/git-install-1.png"
+                                    class="block w-full !h-[438px]"
+                                    alt="git window installation"
+                            />
+                        </div>
+
+                        <!-- Single item -->
+                        <div class="carousel-item relative float-left w-full">
+                            <img
+                                    height="438"
+                                    src="assets/images/git-install-2.png"
+                                    class="block w-full !h-[438px]"
+                                    alt="git window installation"
+                            />
+                        </div>
+
+                        <!-- Single item -->
+                        <div class="carousel-item relative float-left w-full">
+                            <img
+                                    height="438"
+                                    src="assets/images/git-install-3.png"
+                                    class="block w-full !h-[438px]"
+                                    alt="git window installation"
+                            />
+                        </div>
+                        <!-- Single item -->
+                        <div class="carousel-item relative float-left w-full">
+                            <img
+                                    height="438"
+                                    src="assets/images/git-install-4.png"
+                                    class="block w-full !h-[438px]"
+                                    alt="git window installation"
+                            />
+                        </div>
+                        <!-- Single item -->
+                        <div class="carousel-item relative float-left w-full">
+                            <img
+                                    height="438"
+                                    src="assets/images/git-install-5.png"
+                                    class="block w-full !h-[438px]"
+                                    alt="git window installation"
+                            />
+                        </div>
+                        <!-- Single item -->
+                        <div class="carousel-item relative float-left w-full">
+                            <img
+                                    height="438"
+                                    src="assets/images/git-install-6.png"
+                                    class="block w-full !h-[438px]"
+                                    alt="git window installation"
+                            />
+                        </div>
+                    </div>
+                    <!-- Inner -->
+
+                    <!-- Controls -->
+                    <button
+                            class="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"
+                            type="button"
+                            data-bs-target="#carouselDarkVariant"
+                            data-bs-slide="prev"
+                    >
+                        <span class="carousel-control-prev-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button
+                            class="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0"
+                            type="button"
+                            data-bs-target="#carouselDarkVariant"
+                            data-bs-slide="next"
+                    >
+                        <span class="carousel-control-next-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
         </div>
     </div>
 </main>
